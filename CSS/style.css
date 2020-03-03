@@ -25,7 +25,35 @@ padding: 0;}
     text-align: center;
     font-style: normal;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 120px;
     line-height: 77px;
     color: #FFFFFF;
+    padding-bottom: 250px;
 }
+
+.main .catalog{
+    width: 100%;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 70px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.main .design{
+    width: 100%;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 70px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+
