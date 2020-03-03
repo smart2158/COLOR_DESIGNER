@@ -32,12 +32,9 @@ padding: 0;}
 }
 
 .main .catalog{
-    width: 100%;
+    padding: 20px 150px;
     text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
     font-size: 24px;
-    line-height: 70px;
     color: #FFFFFF;
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid #FFFFFF;
@@ -45,15 +42,24 @@ padding: 0;}
     border-radius: 40px;
 }
 
+.main .catalog:hover{
+    background: #FFFFFF;
+    color: black;
+}
+
 .main .design{
-    width: 100%;
+    padding: 20px 150px;
     text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
+    width: 450px;
     font-size: 24px;
-    line-height: 70px;
     color: #000000;
     background: #FFFFFF;
     border-radius: 40px;
-}
+   }
 
+.main .design:hover{
+    background: #ffcc00;}
+
+.main .play{
+    padding: 100px 0;
+}
