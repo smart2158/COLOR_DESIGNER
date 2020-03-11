@@ -21,7 +21,7 @@
     color: #FFFFFF;
 }
 
-.main .btn{
+.main .btn_1{
     background-color:#FFFFFF;
     width: 100%;
     border-radius: 35px;
@@ -30,16 +30,36 @@
     text-decoration: none;
 }
 
-.main .btn:hover{
+.header .btn_1{
+    background-color:#FFFFFF;
+    width: 100%;
+    border-radius: 35px;
+    font-size: 18px;
+    line-height: 52px;
+    text-decoration: none;
+}
+
+.main .btn_1:hover{
     background-color: #ffcc00;
 }
 
-.main .btn a{
+.header .btn_1:hover{
+    background-color: #ffcc00;
+}
+
+.main .btn_1 a{
     text-decoration: none;
     color: #404040;
     font-style: normal;
     font-weight: 600;
  }
+
+.header .btn_1 a{
+    text-decoration: none;
+    color: #404040;
+    font-style: normal;
+    font-weight: 600;
+}
 
 .main .fa-play-circle{
     color: #FFFFFF;
@@ -52,3 +72,14 @@
     color: #ffcc00;
 }
 
+.header {
+    padding: 30px 0;
+}
+
+.header .to_main {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
