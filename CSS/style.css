@@ -1,21 +1,10 @@
-*{margin: 0;
-padding: 0;}
-
-
-.fullscreen-bg__video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .main h1{
-    padding-top: 240px;
-    text-align: center;
+    padding: 240px 0 40px;
     font-style: normal;
     font-weight: bold;
     font-size: 100px;
@@ -24,81 +13,42 @@ padding: 0;}
 }
 
 .main h2{
-    padding-top: 40px;
-    text-align: center;
+    padding: 0 0 250px;
     font-style: normal;
     font-weight: bold;
-    font-size: 120px;
+    font-size: 80px;
     line-height: 77px;
     color: #FFFFFF;
-    padding-bottom: 250px;
 }
 
-.main .catalog{
-    padding: 20px 150px;
+.main .btn{
+    background-color:#FFFFFF;
+    width: 100%;
+    border-radius: 35px;
+    font-size: 18px;
+    line-height: 52px;
     text-decoration: none;
-    font-size: 24px;
+}
+
+.main .btn:hover{
+    background-color: #ffcc00;
+}
+
+.main .btn a{
+    text-decoration: none;
+    color: #404040;
+    font-style: normal;
+    font-weight: 600;
+ }
+
+.main .fa-play-circle{
     color: #FFFFFF;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 40px;
-}
-
-.main .catalog:hover{
-    background: #FFFFFF;
-    color: black;
-}
-
-.main .design{
-    padding: 20px 150px;
-    text-decoration: none;
-    width: 450px;
     font-size: 24px;
-    color: #000000;
-    background-color: #FFFFFF;
-    border-radius: 40px;
-   }
-
-.main .design:hover{
-    background: #ffcc00;}
-
-.main img{
-    margin: 121px 0 100px;
+    margin-top: 120px;
+    margin-bottom: 60px;
 }
 
-.bg_done{
-    position: absolute;
-    margin: auto;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
+.main .fa-play-circle:hover{
+    color: #ffcc00;
 }
 
-.done img{
-    margin: auto;
-    width: 400px;
-    padding: 340px 0 236px;
-}
-
-.btns .new_color{
-    text-decoration: none;
-    font-size: 24px;
-    line-height: 60px;
-    text-align: center;
-    color: #000000;
-    background-color:#FFFFFF ;
-    border-radius:30px;
-    width: 100%;
-}
-
-.btns .main_page{
-    text-decoration: none;
-    font-size: 24px;
-    line-height: 60px;
-    color: #000000;
-    background-color:#FFFFFF ;
-    border-radius:30px;
-    width: 100%;
-}
