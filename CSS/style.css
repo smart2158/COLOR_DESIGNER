@@ -83,3 +83,23 @@
     font-size: 24px;
     color: #000000;
 }
+
+.constructor .type_cord .btn-group{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.constructor .btn-group .btn {
+    text-align: left;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    border: none;
+}
+.constructor  .dropdown-menu{
+    width: 100%;
+}
+
+
+
