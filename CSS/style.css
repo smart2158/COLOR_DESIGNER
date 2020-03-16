@@ -82,7 +82,9 @@
     font-weight: bold;
     font-size: 24px;
     color: #000000;
+    padding-bottom: 60px;
 }
+
 
 .constructor .type_cord .btn-group{
     width: 100%;
@@ -99,6 +101,48 @@
 }
 .constructor  .dropdown-menu{
     width: 100%;
+}
+
+.constructor .type_cord .type_pattern{
+    width: 40px;
+}
+
+
+
+.constructor .colors{
+    padding: 0 20px 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px ;
+}
+
+.constructor .colors a{
+    background-color: #5a6268;
+    padding: 5px 15px;
+    border-radius:10px ;
+}
+.constructor .colors .choose_color{
+    margin-top: 30px;
+}
+
+.constructor .generate{
+    margin: 120px 0 60px;
+    background-color:#FFFFFF;
+    width: 100%;
+    border-radius: 35px;
+    font-size: 18px;
+    line-height: 52px;
+    text-decoration: none;
+}
+
+.constructor .generate:hover{
+    background-color: #ffcc00;
+}
+
+.constructor .generate a{
+    text-decoration: none;
+    color: #404040;
+    font-style: normal;
+    font-weight: 600;
 }
 
 
