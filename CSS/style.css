@@ -145,5 +145,27 @@
     font-weight: 600;
 }
 
+.constructor .ready_cord .form-control{
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.constructor .thirds{
+margin: auto;
+}
+
+.constructor .thirds img{
+    width: 100%;
+}
 
 
+.constructor .cord{
+    padding:  20px 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px ;
+}
+
+.constructor .cord img{
+    width: 100%;
+}
