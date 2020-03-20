@@ -169,3 +169,45 @@ margin: auto;
 .constructor .cord img{
     width: 100%;
 }
+
+
+.cord_info .generate{
+    margin: 120px 0 60px;
+    background-color:#FFFFFF;
+    width: 100%;
+    border-radius: 35px;
+    font-size: 18px;
+    line-height: 52px;
+    text-decoration: none;
+}
+
+.cord_info .generate:hover{
+    background-color: #ffcc00;
+}
+
+.cord_info .generate a{
+    text-decoration: none;
+    color: #404040;
+    font-style: normal;
+    font-weight: 600;}
+
+.cord_info .cord{
+    padding:  10px 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px ;
+    margin-bottom: 30px;
+}
+
+.cord_info .cord img{
+    width: 100%;
+}
+
+.cord_info .client_info .form-control{
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.cord_info{
+    padding-top: 240px;
+}
