@@ -211,3 +211,31 @@ margin: auto;
 .cord_info{
     padding-top: 240px;
 }
+
+
+
+.done .generate{
+    margin: 120px 0 60px;
+    background-color:#FFFFFF;
+    width: 100%;
+    border-radius: 35px;
+    font-size: 18px;
+    line-height: 52px;
+    text-decoration: none;
+}
+
+.done .generate:hover{
+    background-color: #ffcc00;
+}
+
+.done .generate a{
+    text-decoration: none;
+    color: #404040;
+    font-style: normal;
+    font-weight: 600;}
+
+.done img{
+
+    width: 100%;
+    margin: 140px 0 70px;
+}
